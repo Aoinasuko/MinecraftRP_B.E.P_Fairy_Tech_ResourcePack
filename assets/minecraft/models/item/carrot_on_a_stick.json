@@ -1,0 +1,10 @@
+{
+    "parent": "item/handheld_rod", 
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+		{ "predicate": {"custom_model_data": 745001}, "model": "item/3dmodel/item/fairy_rod"},
+		{ "predicate": {"custom_model_data": 745011}, "model": "item/2dmodel/oresearcher"}
+    ]
+}
